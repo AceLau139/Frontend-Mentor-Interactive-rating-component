@@ -1,0 +1,91 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h2{
+    color:#fff;
+}
+
+p{
+    color: rgb(160, 160, 160);
+    font-size: 10pt;
+}
+
+.flex--container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    height: 100vh;
+    width:100vw;
+    background-color: #000;
+}
+
+.wrapper{
+    width: 270px;
+    height: 270px;
+    margin: auto 0;
+    padding: 25px;
+    background-color: rgb(34, 41, 52);
+    border-radius: 25px;
+}
+
+.icon--container{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(55, 59, 64);
+}
+
+.text--container{
+    margin: 25px 0;
+}
+
+.score--container{
+    margin: 0 0 25px 0;
+    justify-content: space-between;
+}
+
+.score--btn{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(55, 59, 64);
+    border: 0;
+}
+.score--btn--hover{background-color: rgb(145, 150, 155);}
+.score--btn--onclick{background-color: rgb(255, 128, 0);}
+
+
+.score--num{
+    color: rgb(160, 160, 160);
+}
+.score--num--hover{color: #fff;}
+.score--num--onclick{color: #fff;}
+
+.submit--btn{
+    background-color: rgb(255, 128, 0);
+    /* margin: 20px 0; */
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px;
+    border: 0;
+}
+
+.submit--btn:hover{
+    background-color: rgb(249, 161, 73);
+}
+
+/* .submit--btn:active{
+    background-color: #fff;
+} */
+
+#submit{
+    color: #fff;
+}
+
+/* #submit:active{
+    color:rgb(255, 128, 0);
+} */
+
