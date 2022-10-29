@@ -61,16 +61,15 @@ body{
     color:#fff;
     background-color: rgb(145, 150, 155);
 }
-.score--btn--onclick{background-color: rgb(255, 128, 0);}
-
-
-/* .w3-red,.w3-hover-red:hover{color:#fff!important;background-color:#f44336!important} */
-
-/* .score--num{
-    color: rgb(160, 160, 160);
+.score--btn:active{
+    color:#fff;
+    background-color: rgb(255, 128, 0);
 }
-.score--num--hover{color: #fff;}
-.score--num--onclick{color: #fff;} */
+
+.score--btn--onclick{
+    color:#fff;
+    background-color: rgb(255, 128, 0);
+}
 
 .submit--btn{
     color: #fff;
@@ -85,11 +84,8 @@ body{
     background-color: rgb(249, 161, 73);
 }
 
-/* .submit--btn:active{
-    background-color: #fff;
-} */
-
-/* #submit:active{
+.submit--btn:active{
     color:rgb(255, 128, 0);
-} */
+    background-color: #fff;
+}
 
