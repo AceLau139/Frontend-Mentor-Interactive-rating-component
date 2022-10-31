@@ -15,26 +15,26 @@
 
   <!-- Rating state start -->
   <div class="wrapper flex--container">
-    <div class="main--container">
+    <div class="pageOne">
         <!-- icon -->
         <div class="icon--container flex--container">
-          <img src="./images/icon-star.svg" />
+          <img src="./images/icon-star.svg" id="icon" />
         </div>
 
         <!-- text -->
         <div class="text--container">
-          <h2>How did we do?</h2>
+          <div class="h2">How did we do?</div>
 
-          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+          <div class="p">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</div>
         </div>
 
         <!-- score -->
         <div class="score--container flex--container">
-          <button class="score--btn"><span id="score--one">1</span></button>
-          <button class="score--btn"><span id="score--two">2</span></button>
-          <button class="score--btn"><span id="score--three">3</span></button>
-          <button class="score--btn"><span id="score--four">4</span></button>
-          <button class="score--btn"><span id="score--five">5</span></button>
+          <button class="score--btn" id="score--one">1</button>
+          <button class="score--btn" id="score--two">2</button>
+          <button class="score--btn" id="score--three">3</button>
+          <button class="score--btn" id="score--four">4</button>
+          <button class="score--btn" id="score--five">5</button>
         </div>
 
         <!-- submit button -->
@@ -42,27 +42,27 @@
           <button class="submit--btn"><span id="submit">SUBMIT</span></button>
         </div>
     </div>
+
+    <div class="pageTwo">
+      <div class="img--container flex--container"><img src="./images/illustration-thank-you.svg"></div>
+      
+      <div class="ratingValue">You selected <span class="value"></span> out of 5</div>
+
+      <div class="text--container">
+        <div class="h2 h2-center">Thank you!</div>
+
+        <div class="p p-center">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</div>
+      </div>
+
+    </div>
   </div>
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  <!-- You selected (Add rating here) out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch! -->
-
-  <!-- Thank you state end -->
-
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 
-  <script defer src="script.js"></script>
+  <!-- <script defer src="script.js"></script> -->
+  <script defer src="neo.js"></script>
 </body>
 </html>
