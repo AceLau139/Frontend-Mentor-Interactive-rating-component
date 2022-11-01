@@ -25,7 +25,7 @@ for(let i=0; i<btnScore.length; i++){
 
     /* remove more than one button style */
     btnScore[i].addEventListener('mouseup', function(){
-        for(let j=0; j<=i; j++){
+        for(let j=0; j<=btnScore.length; j++){
             btnScore[j].classList.remove('score--btn--onclick')
             btnScore[j].classList.add('score--btn')
         }
